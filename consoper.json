@@ -1,0 +1,14 @@
+{
+  "name": "ismael/psr12-auto-chek-github-actions",
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.0"
+  },
+  "scripts": {
+    "format": "php-cs-fixer fix --config=.php-cs-fixer.dist.php"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
