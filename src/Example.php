@@ -2,8 +2,10 @@
 
 namespace App;
 
-class Example{
-public function teste(  ){
-echo "Olá, Mundo!";
-}
+class Example
+{
+    public function teste()
+    {
+        echo "Olá, Mundo!";
+    }
 }
